@@ -1,0 +1,37 @@
+.banner{
+  background-size: cover;
+  background-position: center;
+  height: 503px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.banner-content{
+  color:white;
+  text-align: center;
+
+ }
+
+.banner-content h1, .banner-content p{
+  margin: 5px;
+}
+
+.btn-enter{
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: all 2s;
+  display: block;
+
+
+}
+
+.btn-enter:hover{
+  opacity: 1;
+}

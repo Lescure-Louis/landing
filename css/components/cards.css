@@ -1,0 +1,26 @@
+.main-card{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+.subject{
+  border: solid 1px #999999;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+
+}
+.subject h3{
+  font-size: 15px;
+  margin: 20px;}
+
+.subject img{
+  margin: 0;
+  width: 50px;
+}
+
+.subject-cards h2{
+  text-align: center
+}
